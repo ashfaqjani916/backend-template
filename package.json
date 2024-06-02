@@ -1,0 +1,33 @@
+{
+  "name": "backend-template",
+  "version": "1.0.0",
+  "description": "This is a production ready backend template using Express JS and Drizzle ORM ",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts"
+  },
+  "keywords": [
+    "Typescript",
+    "Express",
+    "JS",
+    "Postgresql",
+    "Node",
+    "JS",
+    "Drizzle",
+    "ORM"
+  ],
+  "author": "Ashfaq Jani",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "prettier": "^3.3.0",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
